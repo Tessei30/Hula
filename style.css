@@ -1,0 +1,52 @@
+/* リセット */
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #000000;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.top-wrapper {
+    height: 400px;
+    background-color: #a9a9a9;
+}
+
+.top-wrapper-logo {
+    padding-top: 150px;
+}
+
+.lessons-wrapper {
+    height: 400px;
+    background-color: #ffffff;
+}
+
+table {
+    margin: 0 auto;
+}
+
+.main-wrapper {
+    height: 150px;
+    background-color: #a9a9a9;
+}
+
+.contact-wrapper {
+    height: 300px;
+    background-color: #ffffff;
+}
